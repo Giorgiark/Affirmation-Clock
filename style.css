@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+#text {
+text-align: center;
+}
+
+#clock {  padding: 50px;
+  font-family: 'Manrope', sans-serif;
+  color: #292623;
+  font-size: 20px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#time{
+  font-size:70px;
+}
+
+
+/* Add styles for the modal and the button */
+
+#modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-content {
+    font-family: 'Manrope', sans-serif;
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  border-radius: 15px;
+}
+
+#setting {
+  font-family: 'Manrope', sans-serif;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  background: transparent;
+  padding: 4px 12px;
+  border: 1px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+
+#close-modal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#close-modal:hover {
+  color: black;
+}
+
+#custom-text {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+
+#save-button {
+  width: 60%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px auto; /* Set left and right margin to auto */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
